@@ -1,0 +1,8 @@
+server:
+  port: 8081
+spring:
+  application: loancalculator
+  datasource:
+    url: jdbc:postgresql://localhost:5434/leanpay?currentSchema=loan&reWriteBatchedInserts=true
+    username: postgres
+    password: postgres
